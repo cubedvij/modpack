@@ -4,20 +4,17 @@
 
 Тут ви знайдете всю інформацію про наш проєкт, а також новини та оновлення.
 
+# 1.2.1 
+Додано моди:
+- [Oculus Particle Fix](https://modrinth.com/mod/oculus-particle-fix)
+- [No Enough Repice Book](https://modrinth.com/mod/nerb)
+- [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next)
+- [Configured](https://mrcrayfish.com/mods?id=configured)
+- [Spark](https://modrinth.com/mod/spark)
+
 ### Лаунчер
 - Дописано лаунчер
 - Запуск відкритого бета-тестування
 
- 
-## Дорожня карта
-
-### Лаунчер
-
-- Виправлення помилок
-- Випуск лаунчера
-
 ### Сервер
-- Запуск сервера
-- Запуск бета-тестування
-- Запуск повноцінного сервера
-  
+- Запуск Бета-тестування!
