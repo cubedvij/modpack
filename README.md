@@ -6,3 +6,5 @@
 ---
 
 ## Я єбав....
+
+![ЗНО Майнкрафт.webp](https://hfs.hampta.pp.ua/zno_minecraft.webp)
