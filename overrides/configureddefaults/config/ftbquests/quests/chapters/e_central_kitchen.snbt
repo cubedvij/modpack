@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_central_kitchen"
+	group: "2F8B068425AF05D4"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "create_central_kitchen:cooking_guide"
+	}
+	id: "28E11357A94C6392"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "54326B24BD28FA83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1314ACB18ADC1A7E"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			subtitle: "Give your Blaze a guide and turn it into a master chef! Blaze Stove will provide Mechanical Arm support for kitchenwares including: Cooking Pot (Farmer's Delight), Kettle (Farmer's Respite), Copper Pot (Miner's Delight). Blaze Stove can also boost cooking up to 4x for the kitchenware above!"
+			tasks: [{
+				id: "7B5FD8E87F63C512"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1C901D6957027EB8"
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Welcome to Create Central Kitchen, a mod offering more tools and methods to automate food processing for other mods in Create."
+			tasks: [{
+				id: "10B8262FD5FF6663"
+				title: "Central Kitchen"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "5192A23748C3AC21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78546BA089E69640"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			subtitle: "Deployer can now perform Cutting Board Recipes (Farmer's Delight) on Belt and Depot."
+			tasks: [
+				{
+					id: "27CEF993C81C6952"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0D91F27FB483BCC5"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "Cutting Board Recipe Automation"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "75BA8D3D6C0B9D1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12DD2E67197CF575"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			subtitle: "Basket (Farmer's Delight) can now directly interact with Belt and Mechanical Arm."
+			tasks: [
+				{
+					id: "0B75E804CE79EE55"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					id: "29FEC9AE0D9669FB"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			title: "Smarter Basket"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "410C2567BCB30109"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A1866307E99061"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5723963CB9187FC6"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "7C490456FC7E561C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CE4CBF52A877A67"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C7E5B52E8A568E1"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: " &eCentral Kitchen"
+}

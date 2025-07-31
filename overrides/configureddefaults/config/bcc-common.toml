@@ -1,0 +1,14 @@
+
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 885460
+	#The name of the modpack
+	modpackName = "All of Create 1.20.1 Create 6.0"
+	#The version of the modpack
+	modpackVersion = "v1.7HF"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

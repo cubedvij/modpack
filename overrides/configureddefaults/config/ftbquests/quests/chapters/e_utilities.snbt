@@ -1,0 +1,87 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_utilities"
+	group: "2F8B068425AF05D4"
+	icon: "createutilities:void_motor"
+	id: "69DDE0B1CC6ECCF0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2CBD3A3C10AB5D98"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4073BD14A62D2CE6"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "251AD129AF21A72B"
+			tasks: [{
+				id: "03845A1F975B3413"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "0519ABC544F83F6B"
+			tasks: [{
+				id: "4D31955AEACE8AA4"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CBD3A3C10AB5D98"]
+			id: "7120895B52AC24AB"
+			tasks: [{
+				id: "3A02DC3C8947BF80"
+				item: "createutilities:void_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CBD3A3C10AB5D98"]
+			id: "4A9EE18C182A2D1E"
+			tasks: [{
+				id: "2809EDE7C5C7A955"
+				item: "createutilities:graviton_tube"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "00CDEE6EF455B152"
+			tasks: [{
+				id: "5542F404D59FA444"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "00A22B8B07A8BE9B"
+			tasks: [{
+				id: "690032A2A20781B4"
+				item: "createutilities:void_battery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+	]
+	title: "&e Void Utilities"
+}

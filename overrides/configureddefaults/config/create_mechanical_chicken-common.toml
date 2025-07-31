@@ -1,0 +1,22 @@
+
+#Settings for the mechanical chicken
+[create_mechanical_chicken]
+	seedOilEnabled = true
+	#Fluid capacity
+	#Range: > 1
+	fluidCapacity = 1000
+	#Required fluid amount
+	#Range: > 0
+	requiredFluidAmount = 100
+	#Sound volume
+	#Range: 0.0 ~ 1.0
+	stressImpact = 1.0
+	#Output amount
+	#Range: > 1
+	outputAmount = 1
+	#Required fluid
+	requiredFluid = "#forge:seed_oil"
+	#Processing time (in ticks)
+	#Range: > 0
+	processingTime = 500
+

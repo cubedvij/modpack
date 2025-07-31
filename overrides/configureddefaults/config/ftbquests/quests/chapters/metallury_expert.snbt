@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metallury_expert"
+	group: "3B8AF43E1258A852"
+	icon: "createmetallurgy:sturdy_whisk"
+	id: "0D6B37E95262618F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "createmetallurgy:sturdy_whisk"
+			id: "694D568E65C188C2"
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Take some blaze cakes, its going to heat up!"
+			tasks: [{
+				id: "148927911400BD20"
+				type: "checkmark"
+			}]
+			title: "Metallury Expert"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["694D568E65C188C2"]
+			id: "56FD7B7332D5B294"
+			subtitle: "Obtain Mechanical Belt Grinder"
+			tasks: [{
+				advancement: "createmetallurgy:belt_grinder"
+				criterion: ""
+				id: "512729F3F08E8C5C"
+				type: "advancement"
+			}]
+			title: "What a Cheese Grater!"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["694D568E65C188C2"]
+			id: "3F20E1456C92F278"
+			subtitle: "Craft a Foundry Basin and Foundry Top"
+			tasks: [{
+				advancement: "createmetallurgy:foundry_basin"
+				criterion: ""
+				id: "5632A662CA61ABA7"
+				type: "advancement"
+			}]
+			title: "Better Blast Furnace"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F20E1456C92F278"]
+			id: "413851654DCD65D3"
+			subtitle: "Get any non-dirty minerals dusts"
+			tasks: [{
+				advancement: "createmetallurgy:melting_dusts"
+				criterion: ""
+				id: "1C53D6E93D501A87"
+				type: "advancement"
+			}]
+			title: "Effective Factory!"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F20E1456C92F278"]
+			id: "4CA82D89B59B33F6"
+			subtitle: "Craft a Casting Basin or Casting Table"
+			tasks: [{
+				advancement: "createmetallurgy:casting_blocks"
+				criterion: ""
+				id: "26C497501B447EB7"
+				type: "advancement"
+			}]
+			title: "Don't Try To Blow on It!"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CA82D89B59B33F6"]
+			id: "44FC080A04EF3970"
+			subtitle: "Obtain a Tungsten Ingot from Wolframite Ore"
+			tasks: [{
+				advancement: "createmetallurgy:tungsten_age"
+				criterion: ""
+				id: "4F5AD8F87B0A8833"
+				type: "advancement"
+			}]
+			title: "The Tungsten Age"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CA82D89B59B33F6"]
+			id: "7CD315EEF62CFCC2"
+			subtitle: "Craft a Graphite"
+			tasks: [{
+				advancement: "createmetallurgy:graphite"
+				criterion: ""
+				id: "3DAF23467D7A3743"
+				type: "advancement"
+			}]
+			title: "High Carbon Density"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44FC080A04EF3970"]
+			id: "6CD6BF0D17D1605E"
+			subtitle: "Craft a Light Bulb"
+			tasks: [{
+				advancement: "createmetallurgy:light_bulb"
+				criterion: ""
+				id: "4374A8C59DD617DD"
+				type: "advancement"
+			}]
+			title: "Edison would be proud!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44FC080A04EF3970"]
+			id: "42CE924B047FF8A6"
+			subtitle: "Obtain a Foundry Mixer"
+			tasks: [{
+				advancement: "createmetallurgy:foundry_mixer"
+				criterion: ""
+				id: "4B6A12CE46874A3A"
+				type: "advancement"
+			}]
+			title: "You Spin me Round!"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CD315EEF62CFCC2"]
+			id: "6E2C82E2740AFCD1"
+			subtitle: "Obtain any Graphite Molds"
+			tasks: [{
+				advancement: "createmetallurgy:graphite_molds"
+				criterion: ""
+				id: "755401029960F152"
+				type: "advancement"
+			}]
+			title: "Graphite Molds"
+			x: 6.0d
+			y: 2.5d
+		}
+	]
+	title: " &eMetallury Expert"
+}

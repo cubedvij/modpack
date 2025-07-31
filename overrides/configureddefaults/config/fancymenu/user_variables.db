@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = server_ip
+  value = play.cubedvij.pp.ua
+  reset_on_launch = false
+}
+

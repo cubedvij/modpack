@@ -1,0 +1,262 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.wood_type]
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.biomeswevegone]
+			aspen = true
+			baobab = true
+			blue_enchanted = true
+			cika = true
+			cypress = true
+			ebony = true
+			fir = true
+			florus = true
+			green_enchanted = true
+			holly = true
+			ironwood = true
+			jacaranda = true
+			mahogany = true
+			maple = true
+			palm = true
+			pine = true
+			rainbow_eucalyptus = true
+			redwood = true
+			sakura = true
+			skyris = true
+			white_mangrove = true
+			willow = true
+			witch_hazel = true
+			zelkova = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.autumnity]
+			maple = true
+
+		[types.wood_type.environmental]
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.garnished]
+			sepia = true
+			nut = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.autumnity]
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+			maple = true
+
+		[types.leaves_type.biomeswevegone]
+			aspen = true
+			baobab = true
+			blue_enchanted = true
+			cika = true
+			cypress = true
+			ebony = true
+			fir = true
+			green_enchanted = true
+			holly = true
+			ironwood = true
+			jacaranda = true
+			mahogany = true
+			maple = true
+			palm = true
+			pine = true
+			rainbow_eucalyptus = true
+			redwood = true
+			skyris = true
+			white_mangrove = true
+			willow = true
+			witch_hazel = true
+			zelkova = true
+			palo_verde = true
+			araucaria = true
+			ripe_baobab = true
+			flowering_baobab = true
+			blue_spruce = true
+			blooming_witch_hazel = true
+			brown_birch = true
+			brown_oak = true
+			brown_zelkova = true
+			ripe_orchard = true
+			flowering_orchard = true
+			flowering_palo_verde = true
+			holly_berry = true
+			indigo_jacaranda = true
+			flowering_jacaranda = true
+			flowering_indigo_jacaranda = true
+			yucca = true
+			ripe_yucca = true
+			flowering_yucca = true
+			orange_birch = true
+			orange_oak = true
+			orange_spruce = true
+			orchard = true
+			red_birch = true
+			red_maple = true
+			red_oak = true
+			red_spruce = true
+			silver_maple = true
+			green_apple_skyris = true
+			flowering_skyris = true
+			flowering_ironwood = true
+			white_sakura = true
+			yellow_sakura = true
+			yellow_birch = true
+			yellow_spruce = true
+			firecracker = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.environmental]
+			pink_wisteria = true
+			blue_wisteria = true
+			purple_wisteria = true
+			white_wisteria = true
+			cheerful_plum = true
+			moody_plum = true
+			hibiscus = true
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			aspen = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			kousa = true
+			currant = true
+			grimwood = true
+
+	[types.cake]
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
+		[types.cake.createfood]
+			cake_chorus_fruit = true
+			cake_glow_berry = true
+			berry_cream_cake_sweet_berry = true
+			berry_cream_cake_chorus_fruit = true
+			berry_cream_cake_glow_berry = true
+			chocolate_cream_cake_butterscotch = true
+			chocolate_cream_cake_caramel = true
+			chocolate_cream_cake_chocolate = true
+			chocolate_cream_cake_dark_chocolate = true
+			chocolate_cream_cake_toffee = true
+			chocolate_cream_cake_white_chocolate = true
+			chorus_fruit_cream_cake_sweet_berry = true
+			chorus_fruit_cream_cake_chorus_fruit = true
+			chorus_fruit_cream_cake_glow_berry = true
+			glow_berry_cream_cake_sweet_berry = true
+			glow_berry_cream_cake_chorus_fruit = true
+			glow_berry_cream_cake_glow_berry = true
+
+#Disables specific entries
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.handcrafted]
+			counter = true
+			corner_trim = true
+			fancy_bed = true
+			desk = true
+			shelf = true
+			nightstand = true
+			cupboard = true
+			dining_bench = true
+			bench = true
+			couch = true
+			table = true
+			chair = true
+			drawer = true
+			pillar_trim = true
+			side_table = true
+
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.quark]
+			hollow_log = true
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			vertical_slab = true
+
+		[entries.wood_type.storagedelight]
+			small_drawers = true
+			single_door_cabinet = true
+			cabinet_with_glass_doors = true
+			drawer = true
+			bookshelf_with_door = true
+			glass_cabinet = true
+			drawer_with_door = true
+			drawer_with_books = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
