@@ -1,0 +1,44 @@
+name:Hameau industrieux
+type:hameau
+weight:0
+spawnBlock:20
+qualifier:les-mines
+radius:30
+
+//starting buildings:
+centre:guildhouse
+start:lumbermanhut
+start:quarry
+start:guesthouse
+
+player:playersmallfield
+player:playersmallhouse
+
+//to be built in priority
+core:quarry
+core:lumbermanhut
+core:lumbermanhut
+
+buyingPrice:normanPickaxe,10/10
+buyingPrice:normanAxe,10/10
+buyingPrice:normanShovel,10/10
+buyingPrice:wool_white,11
+buyingPrice:timberframe_plain,36
+buyingPrice:timberframe_cross,52
+
+export:wood
+export:stone
+export:cobblestone
+export:glass
+export:ciderapple
+
+import:cider
+import:calva
+import:bread
+import:tripes
+import:boudin
+import:normanPickaxe
+import:normanAxe
+import:normanShovel
+import:timberframe_plain
+import:timberframe_cross

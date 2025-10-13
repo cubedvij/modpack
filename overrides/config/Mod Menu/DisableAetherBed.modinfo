@@ -1,0 +1,6 @@
+#Mod info for Disable Aether Bed
+#Mon Oct 13 00:53:49 EEST 2025
+version=v0.1
+name=Disable Aether Bed
+manual=false
+description=Prevents a crash in Aether with Beds

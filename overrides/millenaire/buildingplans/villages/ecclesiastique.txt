@@ -1,0 +1,71 @@
+name:Village ecclésiastique
+weight:10
+spawnBlock:41
+qualifier:l'église
+qualifier:l'abbaye
+
+//starting buildings:
+centre:abbey
+start:lumbermanhut
+start:farm
+start:cattlefarm
+
+player:playersmallfield
+player:playersmallhouse
+player:playerlargefield
+player:playerlargehouse
+player:playerhugefield
+player:playerestate
+
+//to be built in priority
+core:church
+core:presbytery
+core:archives
+core:bakery
+core:fountain
+core:largefountain
+core:inn
+
+//to be built after the core ones
+secondary:farm
+secondary:cattlefarm
+secondary:quarry
+secondary:market
+secondary:pigfarm
+secondary:carpenterhouse
+
+//never for this type of village
+never:armoury
+never:guardhouse
+never:watchtower
+never:tavern
+never:forge
+
+//Selling prices:
+sellingPrice:bookshelves,14
+sellingPrice:parchmentVillagers,5
+sellingPrice:parchmentBuildings,5
+sellingPrice:parchmentItems,5
+sellingPrice:parchmentComplete,32
+
+//Buying prices:
+buyingPrice:bookshelves,12
+buyingPrice:wool_white,8
+buyingPrice:normanBroadsword,1/0/10
+buyingPrice:normanPickaxe,10/10
+buyingPrice:normanAxe,10/10
+buyingPrice:normanShovel,10/10
+buyingPrice:normanHoe,10/10
+
+export:bread
+export:cider
+export:tripes
+export:bookshelves
+export:ciderapple
+export:wool_white
+
+import:cider
+import:calva
+import:normanPickaxe
+import:normanAxe
+import:normanShovel

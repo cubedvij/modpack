@@ -1,0 +1,6 @@
+#Mod info for GLSL Shaders
+#Mon Oct 13 00:53:49 EEST 2025
+version=Video Settings -> Shader Settings
+name=GLSL Shaders
+manual=false
+description=Adds Dynamic Shadows to the game

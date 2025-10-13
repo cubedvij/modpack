@@ -1,0 +1,6 @@
+#Mod info for Allocator
+#Mon Oct 13 00:53:48 EEST 2025
+version=
+name=Allocator
+manual=false
+description=Acts as a filter for blocks and items

@@ -1,0 +1,56 @@
+name:Bourg Autonome
+weight:0
+spawnBlock:87
+qualifier:villefranche
+
+//starting buildings:
+centre:fort
+start:lumbermanhut
+start:farm
+start:pigfarm
+
+player:playersmallfield
+player:playersmallhouse
+player:playerlargefield
+player:playerlargehouse
+player:playerhugefield
+player:playerestate
+
+//to be built in priority
+core:guardhouse
+core:forge
+core:tavern
+core:bakery
+core:church
+
+//to be built after the core ones
+secondary:archives
+secondary:guardhouse
+secondary:quarry
+secondary:watchtower
+secondary:watchtower
+secondary:market
+secondary:carpenterhouse
+
+buyingPrice:wool_white,8
+
+import:bookshelves
+
+export:wool_white
+export:wool_gray
+export:wool_lightgray
+export:wool_black
+export:wool_brown
+export:tripes
+export:bread
+export:boudin
+export:wood
+export:stone
+export:cobblestone
+export:glass
+export:cider
+export:calva
+export:normanHoe
+export:normanPickaxe
+export:normanAxe
+export:normanShovel

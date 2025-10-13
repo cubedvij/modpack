@@ -1,0 +1,64 @@
+name:Village d'artisans
+weight:10
+spawnBlock:22
+qualifier:les-mines
+qualifier:la-forge
+
+//starting buildings:
+centre:guildhouse
+start:lumbermanhut
+start:cattlefarm
+start:quarry
+
+player:playersmallfield
+player:playersmallhouse
+player:playerlargefield
+player:playerlargehouse
+player:playerhugefield
+player:playerestate
+
+//to be built in priority
+core:forge
+core:quarry
+core:lumbermanhut
+core:armoury
+core:tavern
+core:inn
+core:fountain
+core:largefountain
+core:carpenterhouse
+
+//to be built after the core ones
+secondary:archives
+secondary:guardhouse
+secondary:sheepchickenfarm
+secondary:market
+
+//never for this type of village
+never:presbytery
+never:farm
+never:bakery
+
+
+//Selling prices:
+sellingPrice:stone,3
+sellingPrice:glass,3
+sellingPrice:wool_white,13
+
+buyingPrice:wool_white,11
+buyingPrice:stone,2
+buyingPrice:glass,2
+
+export:stone
+export:cobblestone
+export:glass
+export:cider
+export:calva
+export:normanHoe
+export:normanPickaxe
+export:normanAxe
+export:normanShovel
+
+import:bread
+import:boudin
+import:bookshelves
