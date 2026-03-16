@@ -1,6 +1,0 @@
-#Mod info for Slab Crash Fix
-#Mon Oct 13 00:53:48 EEST 2025
-version=the name of an invalid slab type
-name=Slab Crash Fix
-manual=true
-description=Fixes crash when a client tries getting 

@@ -1,9 +1,0 @@
-max:0;priority:2000;french:Hall de la Guilde;english:Guilde House;around:3;startLevel:-1;orientation:3;signs:2,1,3,4,6,5,7,0;shop:townhall;length:13;width:11;male:ml_GuildMaster
-
-
-startLevel:-9
-startLevel:-1
-
-
-startLevel:-9
-startLevel:-1

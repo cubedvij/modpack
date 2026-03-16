@@ -1,6 +1,0 @@
-#Mod info for ItemNBT
-#Mon Oct 13 00:53:48 EEST 2025
-version=v1.1
-name=ItemNBT
-manual=false
-description=Allows items to carry custom NBT data

@@ -1,1 +1,0 @@
-max:1;priority:10;french:Puit;english:Well;around:1;startLevel:-11;maxDistance:55;width:4;length:4
