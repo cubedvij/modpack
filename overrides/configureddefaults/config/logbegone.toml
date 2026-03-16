@@ -1,5 +1,0 @@
-
-[logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Petrolpark"]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Petrolpark"]
-
