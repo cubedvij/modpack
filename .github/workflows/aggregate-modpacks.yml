@@ -30,11 +30,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run aggregation script
-        run: python scripts/aggregate_modpacks.py modpacks.json index.html
-
       - name: Build .mrpack files
         run: python scripts/build_mrpacks.py .
+
+      - name: Run aggregation script
+        run: python scripts/aggregate_modpacks.py modpacks.json index.html
 
       - name: Upload to GitHub Release
         env:

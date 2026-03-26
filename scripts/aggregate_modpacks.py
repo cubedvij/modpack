@@ -13,6 +13,7 @@ import os
 import subprocess
 import sys
 import re
+import hashlib
 from datetime import datetime, timezone
 
 REQUIRED_FIELDS = ["formatVersion", "game", "name", "versionId", "files", "dependencies"]
@@ -147,11 +148,14 @@ def extract_info(ref: str, index: dict, repo_slug: str) -> dict:
         "fileCount": len(index.get("files", [])) + count_overrides_files(ref),
         "updatedAt": updated_at,
         "changelog": changelog,
+        # hash the modpack.mrpack 
+        
     }
 
     dl_url = build_download_url(repo_slug, branch_name)
     if dl_url:
         info["downloadUrl"] = dl_url
+        info["sha256"] = hashlib.sha256(open(f"{branch_name}.mrpack", "rb").read()).hexdigest()
 
     return info
 
@@ -162,7 +166,9 @@ def generate_html(modpacks: list[dict], repo_slug: str) -> str:
     for m in modpacks:
         deps = ", ".join(f"{k} {v}" for k, v in m.get("dependencies", {}).items())
         dl_link = ""
+        hash_short = ""
         if m.get("downloadUrl"):
+            hash_short = m.get("sha256", "")[:8]
             dl_link = f'<a href="{m["downloadUrl"]}">⬇ .mrpack</a>'
 
         updated = m.get("updatedAt", "")[:10]  # just the date part
@@ -175,6 +181,7 @@ def generate_html(modpacks: list[dict], repo_slug: str) -> str:
         <td>{m["fileCount"]}</td>
         <td>{updated}</td>
         <td>{m.get("changelog", "")}</td>
+        <td><code>{hash_short}</code></td>
         <td>{dl_link}</td>
       </tr>
 """
@@ -188,6 +195,21 @@ def generate_html(modpacks: list[dict], repo_slug: str) -> str:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CubeDvij Modpacks</title>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{repo_url}">
+  <meta property="og:title" content="CubeDvij Modpacks">
+  <meta property="og:description" content="A collection of {len(modpacks)} modpack(s) for Minecraft. Updated {now}">
+  <meta property="og:image" content="{repo_url}/raw/_build/icon.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{repo_url}">
+  <meta property="twitter:title" content="CubeDvij Modpacks">
+  <meta property="twitter:description" content="A collection of {len(modpacks)} modpack(s) for Minecraft. Updated {now}">
+  <meta property="twitter:image" content="{repo_url}/raw/_build/icon.png">
+  
   <style>
     :root {{
       --bg: #0d1117;
@@ -272,6 +294,7 @@ def generate_html(modpacks: list[dict], repo_slug: str) -> str:
         <th>Files</th>
         <th>Updated</th>
         <th>Changelog</th>
+        <th>SHA256</th>
         <th>Download</th>
       </tr>
     </thead>

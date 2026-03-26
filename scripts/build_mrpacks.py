@@ -11,7 +11,6 @@ import re
 import subprocess
 import sys
 import zipfile
-import tempfile
 
 
 def get_remote_branches(exclude: list[str] | None = None) -> list[str]:
